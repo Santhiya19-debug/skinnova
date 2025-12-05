@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Product details - SKINNOVA clean skincare">
+  <title>Product Details - SKINNOVA</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="product">
+  
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">SKINNOVA</a>
+      
+      <nav class="header__nav">
+        <a href="index.html" class="header__nav-link">Home</a>
+        <div class="header__dropdown">
+          <span class="header__nav-link">Shop</span>
+          <div class="header__dropdown-menu">
+            <a href="category.html?category=serums" class="header__dropdown-item">Serums</a>
+            <a href="category.html?category=moisturizers" class="header__dropdown-item">Moisturizers</a>
+            <a href="category.html?category=cleansers" class="header__dropdown-item">Cleansers</a>
+            <a href="category.html?category=sunscreens" class="header__dropdown-item">Sunscreens</a>
+            <a href="category.html?category=masks" class="header__dropdown-item">Masks</a>
+            <a href="category.html" class="header__dropdown-item">View All</a>
+          </div>
+        </div>
+        <a href="#story" class="header__nav-link">About</a>
+        <a href="#blog-section" class="header__nav-link">Blog</a>
+        <a href="#contact-section" class="header__nav-link">Contact</a>
+      </nav>
+      
+      <div class="header__icons">
+        <span class="header__icon" data-search-trigger aria-label="Search">🔍</span>
+        <a href="wishlist.html" class="header__icon" aria-label="Wishlist">♥</a>
+        <a href="cart.html" class="header__icon" aria-label="Shopping cart">
+          🛒
+          <span class="header__icon-badge" style="display: none;">0</span>
+        </a>
+        <a href="login.html" class="header__icon" aria-label="Login">👤</a>
+      </div>
+      
+      <div class="header__menu-toggle" aria-label="Toggle menu">☰</div>
+    </div>
+  </header>
+
+  <!-- Product Detail -->
+  <section class="section">
+    <div class="container">
+      <div class="product-detail">
+        
+        <!-- Product Gallery -->
+        <div class="product-gallery">
+          <div class="product-gallery__thumbnails">
+            <div class="product-gallery__thumbnail active" data-index="0">
+              <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&q=80" alt="Product thumbnail 1" loading="lazy">
+            </div>
+            <div class="product-gallery__thumbnail" data-index="1">
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80" alt="Product thumbnail 2" loading="lazy">
+            </div>
+          </div>
+          <div class="product-gallery__main">
+            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80" alt="Product main image">
+          </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+          <h1 class="product-info__name">Radiance Vitamin C Serum</h1>
+          
+          <div class="product-info__rating">
+            <span class="product-info__stars">★★★★☆</span>
+            <span class="text-grey">(<span class="product-info__rating-value">4.6</span>) · 124 reviews</span>
+          </div>
+          
+          <div class="product-info__price">₹1,299</div>
+          
+          <p class="product-info__description">
+            A nourishing Vitamin C serum with stabilised formula that brightens, evens skin tone, and reduces signs of aging. Packed with antioxidants for radiant, healthy skin.
+          </p>
+          
+          <div class="product-info__actions">
+            <div class="product-info__quantity">
+              <button class="product-info__quantity-btn" data-quantity-decrease aria-label="Decrease quantity">−</button>
+              <span class="product-info__quantity-value" data-quantity-value>1</span>
+              <button class="product-info__quantity-btn" data-quantity-increase aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn btn--primary" data-add-to-cart style="flex: 1;">Add to Cart</button>
+            <button class="product-card__wishlist" data-wishlist-toggle style="width: 50px; height: 50px; border-radius: 8px;" aria-label="Add to wishlist">
+              <span class="product-card__wishlist-icon">♥</span>
+            </button>
+          </div>
+          
+          <!-- Accordions -->
+          <div class="accordion mt-lg">
+            <div class="accordion__item">
+              <div class="accordion__header">
+                <span>Ingredients</span>
+                <span class="accordion__icon">▼</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__body">
+                  <ul data-ingredients>
+                    <li>Ascorbic Acid</li>
+                    <li>Hyaluronic Acid</li>
+                    <li>Glycerin</li>
+                    <li>Ferulic Acid</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion__item">
+              <div class="accordion__header">
+                <span>How to Use</span>
+                <span class="accordion__icon">▼</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__body">
+                  <p>Apply 2-3 drops to clean, dry skin in the morning. Gently massage into face and neck. Follow with moisturizer and SPF. For best results, use daily.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion__item">
+              <div class="accordion__header">
+                <span>Shipping & Returns</span>
+                <span class="accordion__icon">▼</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__body">
+                  <p>Free shipping on orders over ₹999. Delivery within 3-5 business days. 30-day return policy on unopened products. Contact us for any concerns.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="section bg-offwhite">
+    <div class="container">
+      <h2 class="mb-lg">Customer Reviews</h2>
+      <div class="reviews-grid" data-reviews>
+        <!-- Reviews loaded by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="section">
+    <div class="container">
+      <h2 class="mb-lg">You May Also Like</h2>
+      <div class="product-grid" data-related-products>
+        <!-- Related products loaded by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">SKINNOVA</div>
+          <p class="footer__description">Clean, conscious skincare that works. Science meets soft.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="footer__social-icon" aria-label="Facebook">👥</a>
+            <a href="#" class="footer__social-icon" aria-label="Twitter">🐦</a>
+            <a href="#" class="footer__social-icon" aria-label="Pinterest">📌</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Shop</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="category.html?category=serums">Serums</a></li>
+            <li class="footer__link"><a href="category.html?category=moisturizers">Moisturizers</a></li>
+            <li class="footer__link"><a href="category.html?category=cleansers">Cleansers</a></li>
+            <li class="footer__link"><a href="category.html">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="#story">About Us</a></li>
+            <li class="footer__link"><a href="#blog-section">Blog</a></li>
+            <li class="footer__link"><a href="#contact-section">Contact</a></li>
+            <li class="footer__link"><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="#">Shipping & Returns</a></li>
+            <li class="footer__link"><a href="#">FAQ</a></li>
+            <li class="footer__link"><a href="#">Terms & Conditions</a></li>
+            <li class="footer__link"><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 SKINNOVA. All rights reserved. Designed with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay">
+    <div class="search-overlay__container">
+      <span class="search-overlay__close" aria-label="Close search">&times;</span>
+      <input type="text" class="search-overlay__input" placeholder="Search for products..." aria-label="Search products">
+      <div class="search-overlay__results"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

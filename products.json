@@ -1,0 +1,280 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "slug": "vitamin-c-serum",
+      "name": "Radiance Vitamin C Serum",
+      "price": 1299,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        {"name": "Maya", "rating": 5, "text": "Brightened my skin in 2 weeks. Love the texture!"},
+        {"name": "Arjun", "rating": 4, "text": "Good serum but takes time to show results."},
+        {"name": "Priya", "rating": 5, "text": "Absolutely glowing skin. Worth every rupee."}
+      ],
+      "shortDesc": "Lightweight serum for glow and even tone.",
+      "longDesc": "A nourishing Vitamin C serum with stabilised formula that brightens, evens skin tone, and reduces signs of aging. Packed with antioxidants for radiant, healthy skin.",
+      "ingredients": ["Ascorbic Acid", "Hyaluronic Acid", "Glycerin", "Ferulic Acid"],
+      "category": "serums",
+      "tags": ["brightening", "vitamin-c", "glow"],
+      "stock": 26
+    },
+    {
+      "id": "p002",
+      "slug": "hyaluronic-moisturizer",
+      "name": "Hydra Boost Moisturizer",
+      "price": 899,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+        "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&q=80"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {"name": "Ananya", "rating": 5, "text": "My skin feels so plump and hydrated all day."},
+        {"name": "Rohan", "rating": 5, "text": "Non-greasy and absorbs quickly. Perfect!"},
+        {"name": "Kavya", "rating": 4, "text": "Great for dry skin but wish it came in a bigger size."}
+      ],
+      "shortDesc": "Deep hydration with hyaluronic acid.",
+      "longDesc": "A gel-cream moisturizer infused with hyaluronic acid to lock in moisture and keep skin plump, smooth, and dewy all day long.",
+      "ingredients": ["Hyaluronic Acid", "Ceramides", "Niacinamide", "Aloe Vera"],
+      "category": "moisturizers",
+      "tags": ["hydration", "plumping", "dry-skin"],
+      "stock": 42
+    },
+    {
+      "id": "p003",
+      "slug": "gentle-foaming-cleanser",
+      "name": "Soft Reset Foaming Cleanser",
+      "price": 649,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1556228852-80c3cad6db99?w=800&q=80",
+        "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&q=80"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {"name": "Ishaan", "rating": 5, "text": "Cleanses without stripping. My skin feels soft."},
+        {"name": "Sneha", "rating": 4, "text": "Gentle and effective, but I prefer non-foaming."},
+        {"name": "Aarav", "rating": 5, "text": "Perfect for sensitive skin. No irritation at all."}
+      ],
+      "shortDesc": "Gentle cleanser for all skin types.",
+      "longDesc": "A pH-balanced foaming cleanser that removes impurities, makeup, and excess oil without stripping skin's natural moisture. Leaves skin clean, soft, and refreshed.",
+      "ingredients": ["Coconut Surfactants", "Chamomile Extract", "Glycerin", "Panthenol"],
+      "category": "cleansers",
+      "tags": ["gentle", "foaming", "sensitive-skin"],
+      "stock": 58
+    },
+    {
+      "id": "p004",
+      "slug": "spf50-sunscreen",
+      "name": "Invisible Shield SPF 50",
+      "price": 749,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {"name": "Aditi", "rating": 5, "text": "No white cast! Blends beautifully under makeup."},
+        {"name": "Karan", "rating": 5, "text": "Lightweight and non-greasy. Best sunscreen ever."},
+        {"name": "Meera", "rating": 4, "text": "Great protection but reapplication can feel sticky."}
+      ],
+      "shortDesc": "Lightweight SPF 50 with no white cast.",
+      "longDesc": "Broad-spectrum SPF 50 sunscreen with PA++++ protection. Lightweight, non-greasy formula that leaves no white cast. Perfect for daily use under makeup.",
+      "ingredients": ["Zinc Oxide", "Titanium Dioxide", "Vitamin E", "Green Tea Extract"],
+      "category": "sunscreens",
+      "tags": ["spf50", "no-white-cast", "lightweight"],
+      "stock": 34
+    },
+    {
+      "id": "p005",
+      "slug": "clarifying-clay-mask",
+      "name": "Detox Clay Mask",
+      "price": 799,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80",
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80"
+      ],
+      "rating": 4.4,
+      "reviews": [
+        {"name": "Nisha", "rating": 5, "text": "My pores look so much smaller after using this."},
+        {"name": "Raghav", "rating": 4, "text": "Works well but can be drying if left on too long."},
+        {"name": "Diya", "rating": 4, "text": "Effective detox mask. Use it once a week."}
+      ],
+      "shortDesc": "Deep cleansing mask for oily skin.",
+      "longDesc": "A purifying clay mask with kaolin and bentonite clay to draw out impurities, minimize pores, and control excess oil. Perfect weekly treatment for clearer skin.",
+      "ingredients": ["Kaolin Clay", "Bentonite Clay", "Tea Tree Oil", "Salicylic Acid"],
+      "category": "masks",
+      "tags": ["detox", "clay", "oily-skin"],
+      "stock": 19
+    },
+    {
+      "id": "p006",
+      "slug": "caffeine-eye-cream",
+      "name": "Awaken Eye Cream",
+      "price": 1099,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+        "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&q=80"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        {"name": "Simran", "rating": 5, "text": "My dark circles are noticeably lighter!"},
+        {"name": "Vikram", "rating": 4, "text": "Good product but takes consistency to see results."},
+        {"name": "Tanvi", "rating": 5, "text": "Love how it depuffs my under eyes instantly."}
+      ],
+      "shortDesc": "Reduces dark circles and puffiness.",
+      "longDesc": "A revitalizing eye cream with caffeine and peptides to reduce dark circles, puffiness, and fine lines. Brightens and firms the delicate under-eye area.",
+      "ingredients": ["Caffeine", "Peptides", "Vitamin K", "Hyaluronic Acid"],
+      "category": "eye-creams",
+      "tags": ["dark-circles", "caffeine", "depuffing"],
+      "stock": 28
+    },
+    {
+      "id": "p007",
+      "slug": "niacinamide-toner",
+      "name": "Balance Niacinamide Toner",
+      "price": 599,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80",
+        "https://images.unsplash.com/photo-1556228852-80c3cad6db99?w=800&q=80"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {"name": "Isha", "rating": 5, "text": "My skin texture has improved so much!"},
+        {"name": "Aryan", "rating": 5, "text": "Minimizes my pores and controls oil perfectly."},
+        {"name": "Riya", "rating": 4, "text": "Great toner but bottle design could be better."}
+      ],
+      "shortDesc": "Pore-refining toner with niacinamide.",
+      "longDesc": "A balancing toner with 5% niacinamide to minimize pores, control oil production, and improve skin texture. Gentle enough for daily use.",
+      "ingredients": ["Niacinamide", "Zinc PCA", "Witch Hazel", "Allantoin"],
+      "category": "toners",
+      "tags": ["niacinamide", "pore-minimizing", "oil-control"],
+      "stock": 47
+    },
+    {
+      "id": "p008",
+      "slug": "retinol-night-serum",
+      "name": "Renew Retinol Night Serum",
+      "price": 1499,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {"name": "Pooja", "rating": 5, "text": "Fine lines are fading. This really works!"},
+        {"name": "Manish", "rating": 5, "text": "Best retinol serum for beginners. Gentle yet effective."},
+        {"name": "Aisha", "rating": 4, "text": "Amazing results but use SPF during the day."}
+      ],
+      "shortDesc": "Anti-aging retinol serum for smooth skin.",
+      "longDesc": "A potent yet gentle retinol night serum that reduces fine lines, improves skin texture, and boosts collagen production for youthful, radiant skin.",
+      "ingredients": ["Retinol", "Squalane", "Vitamin E", "Bisabolol"],
+      "category": "serums",
+      "tags": ["retinol", "anti-aging", "night-serum"],
+      "stock": 15
+    },
+    {
+      "id": "p009",
+      "slug": "sheet-mask-pack",
+      "name": "Glow Boost Sheet Mask (5 Pack)",
+      "price": 499,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&q=80",
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {"name": "Sanya", "rating": 5, "text": "Instant glow! Perfect before events."},
+        {"name": "Kabir", "rating": 4, "text": "Good value for money. Hydrating and soothing."},
+        {"name": "Naina", "rating": 5, "text": "Love the essence. Skin feels baby soft after."}
+      ],
+      "shortDesc": "Hydrating sheet masks for instant glow.",
+      "longDesc": "A pack of 5 hydrating sheet masks infused with hyaluronic acid and botanical extracts. Delivers instant hydration, plumpness, and radiance.",
+      "ingredients": ["Hyaluronic Acid", "Aloe Vera", "Chamomile Extract", "Rose Water"],
+      "category": "masks",
+      "tags": ["sheet-mask", "hydration", "instant-glow"],
+      "stock": 64
+    },
+    {
+      "id": "p010",
+      "slug": "micellar-water",
+      "name": "Clear Away Micellar Water",
+      "price": 549,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1556228852-80c3cad6db99?w=800&q=80",
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        {"name": "Zara", "rating": 5, "text": "Removes makeup effortlessly. No rinsing needed!"},
+        {"name": "Aditya", "rating": 4, "text": "Gentle and effective. Use it every night."},
+        {"name": "Leela", "rating": 5, "text": "Perfect for lazy days. Cleanses beautifully."}
+      ],
+      "shortDesc": "No-rinse makeup remover and cleanser.",
+      "longDesc": "A gentle micellar water that removes makeup, dirt, and impurities without rinsing. Suitable for all skin types including sensitive skin.",
+      "ingredients": ["Micellar Technology", "Glycerin", "Cucumber Extract", "Panthenol"],
+      "category": "cleansers",
+      "tags": ["micellar-water", "makeup-remover", "no-rinse"],
+      "stock": 51
+    },
+    {
+      "id": "p011",
+      "slug": "overnight-sleeping-mask",
+      "name": "Dream Cloud Sleeping Mask",
+      "price": 1199,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        {"name": "Rhea", "rating": 5, "text": "Wake up with the softest, most glowing skin!"},
+        {"name": "Dev", "rating": 5, "text": "This is my holy grail overnight mask. Obsessed."},
+        {"name": "Kiara", "rating": 5, "text": "Texture is luxurious. Skin looks refreshed in the AM."}
+      ],
+      "shortDesc": "Overnight mask for intense hydration.",
+      "longDesc": "An ultra-hydrating overnight sleeping mask that locks in moisture and delivers nourishing ingredients while you sleep. Wake up to plump, glowing skin.",
+      "ingredients": ["Hyaluronic Acid", "Squalane", "Lavender Oil", "Ceramides"],
+      "category": "masks",
+      "tags": ["overnight", "sleeping-mask", "hydration"],
+      "stock": 22
+    },
+    {
+      "id": "p012",
+      "slug": "lip-treatment-balm",
+      "name": "Soft Kiss Lip Treatment",
+      "price": 399,
+      "currency": "INR",
+      "images": [
+        "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&q=80",
+        "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {"name": "Tara", "rating": 5, "text": "My lips have never felt this soft and smooth!"},
+        {"name": "Nikhil", "rating": 5, "text": "Non-sticky and really nourishing. Love it."},
+        {"name": "Sara", "rating": 4, "text": "Good balm but I wish it had SPF."}
+      ],
+      "shortDesc": "Nourishing lip balm with shea butter.",
+      "longDesc": "A deeply nourishing lip treatment with shea butter and vitamin E to heal, hydrate, and protect dry, chapped lips. Leaves lips soft and smooth.",
+      "ingredients": ["Shea Butter", "Vitamin E", "Jojoba Oil", "Beeswax"],
+      "category": "lip-care",
+      "tags": ["lip-balm", "nourishing", "hydration"],
+      "stock": 73
+    }
+  ]
+}

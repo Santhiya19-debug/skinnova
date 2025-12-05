@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Login to your SKINNOVA account">
+  <title>Login - SKINNOVA</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="login">
+  
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">SKINNOVA</a>
+      
+      <nav class="header__nav">
+        <a href="index.html" class="header__nav-link">Home</a>
+        <div class="header__dropdown">
+          <span class="header__nav-link">Shop</span>
+          <div class="header__dropdown-menu">
+            <a href="category.html?category=serums" class="header__dropdown-item">Serums</a>
+            <a href="category.html?category=moisturizers" class="header__dropdown-item">Moisturizers</a>
+            <a href="category.html?category=cleansers" class="header__dropdown-item">Cleansers</a>
+            <a href="category.html?category=sunscreens" class="header__dropdown-item">Sunscreens</a>
+            <a href="category.html?category=masks" class="header__dropdown-item">Masks</a>
+            <a href="category.html" class="header__dropdown-item">View All</a>
+          </div>
+        </div>
+        <a href="#story" class="header__nav-link">About</a>
+        <a href="#blog-section" class="header__nav-link">Blog</a>
+        <a href="#contact-section" class="header__nav-link">Contact</a>
+      </nav>
+      
+      <div class="header__icons">
+        <span class="header__icon" data-search-trigger aria-label="Search">🔍</span>
+        <a href="wishlist.html" class="header__icon" aria-label="Wishlist">♥</a>
+        <a href="cart.html" class="header__icon" aria-label="Shopping cart">
+          🛒
+          <span class="header__icon-badge" style="display: none;">0</span>
+        </a>
+        <a href="login.html" class="header__icon" aria-label="Login">👤</a>
+      </div>
+      
+      <div class="header__menu-toggle" aria-label="Toggle menu">☰</div>
+    </div>
+  </header>
+
+  <!-- Login Section -->
+  <div class="login-container">
+    <div class="login-box">
+      <h2 class="login-box__title">Welcome Back</h2>
+      
+      <div class="login-box__social">
+        <button class="login-box__social-btn">
+          <span>G</span>
+          <span>Google</span>
+        </button>
+        <button class="login-box__social-btn">
+          <span>f</span>
+          <span>Facebook</span>
+        </button>
+      </div>
+      
+      <div class="login-box__divider">
+        <span style="background: white; padding: 0 1rem; position: relative; z-index: 1; color: var(--grey);">or</span>
+      </div>
+      
+      <form data-login-form>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="login-box__forgot">
+          <a href="#">Forgot Password?</a>
+        </div>
+        
+        <button type="submit" class="btn btn--primary btn--full">Login</button>
+      </form>
+      
+      <div class="login-box__footer">
+        Don't have an account? <a href="#">Sign Up</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">SKINNOVA</div>
+          <p class="footer__description">Clean, conscious skincare that works. Science meets soft.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="footer__social-icon" aria-label="Facebook">👥</a>
+            <a href="#" class="footer__social-icon" aria-label="Twitter">🐦</a>
+            <a href="#" class="footer__social-icon" aria-label="Pinterest">📌</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Shop</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="category.html?category=serums">Serums</a></li>
+            <li class="footer__link"><a href="category.html?category=moisturizers">Moisturizers</a></li>
+            <li class="footer__link"><a href="category.html?category=cleansers">Cleansers</a></li>
+            <li class="footer__link"><a href="category.html">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="#story">About Us</a></li>
+            <li class="footer__link"><a href="#blog-section">Blog</a></li>
+            <li class="footer__link"><a href="#contact-section">Contact</a></li>
+            <li class="footer__link"><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__links">
+            <li class="footer__link"><a href="#">Shipping & Returns</a></li>
+            <li class="footer__link"><a href="#">FAQ</a></li>
+            <li class="footer__link"><a href="#">Terms & Conditions</a></li>
+            <li class="footer__link"><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 SKINNOVA. All rights reserved. Designed with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay">
+    <div class="search-overlay__container">
+      <span class="search-overlay__close" aria-label="Close search">&times;</span>
+      <input type="text" class="search-overlay__input" placeholder="Search for products..." aria-label="Search products">
+      <div class="search-overlay__results"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
