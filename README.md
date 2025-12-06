@@ -288,7 +288,13 @@ Possible additions for extended version:
 - **Total template size**: ~145KB (excluding images)
 
 ---
+Live Demo:
+https://stately-kangaroo-8a8f4d.netlify.app/
+
+Source Code:
+https://github.com/Santhiya19-debug/skinnova
 
 **Built with care for the skincare industry. Clean code. Clean skin. 🌿**
+
 
 Version 1.0 | December 2025
