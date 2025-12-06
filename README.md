@@ -288,23 +288,6 @@ Possible additions for extended version:
 - **Total template size**: ~145KB (excluding images)
 
 
-🧪 Tested On
-Chrome 120+
-Firefox 120+
-Safari 17+
-Edge 120+
-Mobile Safari (iOS 16+)
-Chrome Mobile (Android 12+)
-
-📦 Deployment
-Static Hosting
-Netlify
-Vercel
-GitHub Pages
-AWS S3
-
-📝 License & Usage
-Commercial use allowed
 
 ---
 
@@ -314,3 +297,4 @@ Source Code: https://github.com/Santhiya19-debug/skinnova
 **Built with care for the skincare industry. Clean code. Clean skin. 🌿**
 
 Version 1.0 | December 2025
+
